@@ -16,3 +16,8 @@ HTML5, CSS, JavaScript, node.js
 ## Contributors
 <br>Credit to development team member:
 <br>[Rudy Yen](https://github.com/yenloned)
+
+
+## epilogue
+This is my first repository in Github, enjoy!
+https://tenor.com/view/smiling-cat-creepy-cat-cat-zoom-kitty-gif-12199043
