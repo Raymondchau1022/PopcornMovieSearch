@@ -1,6 +1,6 @@
 # PopcornMovieSearch
 IMDb API Search Web
-<br>URL Site: https://yenloned.github.io/PopcornMovieSearch/
+<br>URL Site: https://raymondchau1022.github.io/PopcornMovieSearch/
 <br>
 <br> PopcornMovieSearch is a website that provides an API Search function for movie searching. This website was developed in a full stack team of 2 people.
 ## Technologies
