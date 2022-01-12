@@ -18,6 +18,7 @@ HTML5, CSS, JavaScript, node.js
 <br>[Rudy Yen](https://github.com/yenloned)
 
 
-## epilogue
-This is my first repository in Github, enjoy!
-https://tenor.com/view/smiling-cat-creepy-cat-cat-zoom-kitty-gif-12199043
+## Epilogue
+This is my first repository in Github, it may imperfect, but it is a good practice for me, enjoy!
+<br><br>
+![PREVIEW!](itdog.gif)
