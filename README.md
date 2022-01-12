@@ -19,6 +19,6 @@ HTML5, CSS, JavaScript, node.js
 
 
 ## Epilogue
-This is my first repository in Github, it may imperfect, but it is a good practice for me, enjoy!
+This is my first Github repository; it's not perfect, but it's good practice for me, so enjoy!
 <br><br>
 ![PREVIEW!](itdog.gif)
