@@ -5,13 +5,13 @@ function apiSearch(search){
     
     moviesList = []
     counting = 0
-    var url = "https://movie-database-imdb-alternative.p.rapidapi.com/?s=" + search + "&r=json&type=movie&page=1";
+    var url = "https://movie-database-alternative.p.rapidapi.com/?s=" + search + "&r=json&page=1";
 
     document.querySelector('.movies').innerHTML = "";
     fetch(url, {
     "method": "GET",
     "headers": {
-        "x-rapidapi-host": "movie-database-imdb-alternative.p.rapidapi.com",
+        "x-rapidapi-host": "movie-database-alternative.p.rapidapi.com",
         "x-rapidapi-key": "3491ba94cbmsha9459b9f0cc3d0bp15e18cjsna3c80fd9a36b"
         }
     })
@@ -52,7 +52,7 @@ function clickMoreDetails(searchid){
         var last_movies = ".movies_detail" + lastSearch
         document.querySelector(last_movies).innerHTML = "";
     
-        var url ="https://movie-database-imdb-alternative.p.rapidapi.com/?r=json&i=" + moviesList[searchid]
+        var url ="https://movie-database-alternative.p.rapidapi.com/?r=json&i=" + moviesList[searchid]
         fetch(url, {
             "method": "GET",
             "headers": {
