@@ -1,6 +1,7 @@
 var counting = 0
 var moviesList = [];
 
+
 function apiSearch(search){
     
     moviesList = []
@@ -56,8 +57,8 @@ function clickMoreDetails(searchid){
         fetch(url, {
             "method": "GET",
             "headers": {
-                "x-rapidapi-host": "movie-database-alternative.p.rapidapi.com",
-                "x-rapidapi-key": "3491ba94cbmsha9459b9f0cc3d0bp15e18cjsna3c80fd9a36b"
+            "x-rapidapi-host": "movie-database-alternative.p.rapidapi.com",
+            "x-rapidapi-key": "3491ba94cbmsha9459b9f0cc3d0bp15e18cjsna3c80fd9a36b"
             }
         })
 
@@ -85,8 +86,8 @@ function clickMoreDetails(searchid){
             <br><br><div class="detail_storyline"> Storyline: ${detail_description}</div>
             <div class="detail_button">
             <div class="imdb_button"><a href="${imdbwebsite}" target="_blank">IMDB Website</a></div>
-            <div class="youtube_button" onclick="watertrailer(${searchid})">Watch Trailer</div>
-            </div></div>`
+            <div class="youtube_button" onclick="watchtrailer(${searchid})">Watch Trailer</div>
+            </div>`
             document.querySelector(expand_movies).innerHTML = movies_detail;
         
             
@@ -100,7 +101,7 @@ function clickMoreDetails(searchid){
 
 }
 
-function watertrailer(trailerid){
+function watchtrailer(trailerid){
     
     var url="https://mdblist.p.rapidapi.com/?i="+moviesList[trailerid];
     fetch(url, {
